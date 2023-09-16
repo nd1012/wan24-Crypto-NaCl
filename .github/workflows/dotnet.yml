@@ -21,10 +21,10 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./src/wan24-Crypo-NaCl.sln --ignore-failed-sources
+      run: dotnet restore ./src/wan24-Crypto-NaCl.sln --ignore-failed-sources
     - name: Build lib
-      run: dotnet build "./src/wan24-Crypo-NaCl/wan24-Crypo-NaCl.csproj" --no-restore
+      run: dotnet build "./src/wan24-Crypto-NaCl/wan24-Crypto-NaCl.csproj" --no-restore
     - name: Build tests
-      run: dotnet build "./src/wan24-Crypo-NaCl Tests/wan24-Crypo-NaCl Tests.csproj" --no-restore
+      run: dotnet build "./src/wan24-Crypto-NaCl Tests/wan24-Crypto-NaCl Tests.csproj" --no-restore
     - name: Test
-      run: dotnet test ./src/wan24-Crypo-NaCl.sln --no-build --verbosity normal
+      run: dotnet test ./src/wan24-Crypto-NaCl.sln --no-build --verbosity normal
