@@ -18,7 +18,7 @@
     <PackageProjectUrl>https://github.com/nd1012/wan24-Crypto-NaCl</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nd1012/wan24-Crypto-NaCl</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>crypto;nacl</PackageTags>
+    <PackageTags>crypto;nacl;argon2;argon2id</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
