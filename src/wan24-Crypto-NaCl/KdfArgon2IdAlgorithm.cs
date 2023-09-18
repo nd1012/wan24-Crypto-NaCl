@@ -161,5 +161,10 @@ namespace wan24.Crypto.NaCl
                 throw CryptographicException.From(ex);
             }
         }
+
+        /// <summary>
+        /// Register the algorithm to the <see cref="CryptoConfig"/>
+        /// </summary>
+        public static void Register() => CryptoConfig.AddAlgorithm(typeof(KdfArgon2IdAlgorithm), ALGORITHM_NAME);
     }
 }
