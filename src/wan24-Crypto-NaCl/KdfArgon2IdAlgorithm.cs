@@ -25,7 +25,7 @@ namespace wan24.Crypto.NaCl
         /// </summary>
         public const int MAX_PARALLELISM = 16_777_215;
         /// <summary>
-        /// Default memory size (m=46MiB)
+        /// Default memory size (m=46M)
         /// </summary>
         public const long DEFAULT_MEMORY = 47_104;
         /// <summary>
@@ -70,7 +70,7 @@ namespace wan24.Crypto.NaCl
         /// <summary>
         /// Constructor
         /// </summary>
-        public KdfArgon2IdAlgorithm() : base(ALGORITHM_NAME, ALGORITHM_VALUE) => _DefaultOptions.KdfOptions = new KdfArgon2IdOptions();
+        public KdfArgon2IdAlgorithm() : base(ALGORITHM_NAME, ALGORITHM_VALUE) => DefaultKdfOptions = new KdfArgon2IdOptions();
 
         /// <summary>
         /// Instance
@@ -139,14 +139,14 @@ namespace wan24.Crypto.NaCl
                 options = KdfHelper.GetDefaultOptions(options);
                 if (options.KdfIterations < DEFAULT_PASSES || options.KdfIterations > MAX_PASSES)
                     throw new ArgumentException("Invalid KDF iterations", nameof(options));
-                KdfArgon2IdOptions argon2options = ((options.KdfOptions ??= new KdfArgon2IdOptions()) ?? new KdfArgon2IdOptions())!;
                 salt ??= RandomNumberGenerator.GetBytes(DEFAULT_SALT_LEN);
                 if (salt.Length < DEFAULT_SALT_LEN) throw new ArgumentException("Invalid salt length", nameof(salt));
+                KdfArgon2IdOptions kdfOptions = ((options.KdfOptions ??= DefaultKdfOptions) ?? new KdfArgon2IdOptions())!;
                 return (
                     PasswordBasedKeyDerivationAlgorithm.Argon2id(new()
                     {
-                        DegreeOfParallelism = argon2options.Parallelism,
-                        MemorySize = argon2options.MemoryLimit,
+                        DegreeOfParallelism = kdfOptions.Parallelism,
+                        MemorySize = kdfOptions.MemoryLimit,
                         NumberOfPasses = options.KdfIterations
                     }).DeriveBytes(pwd, salt, len),
                     salt

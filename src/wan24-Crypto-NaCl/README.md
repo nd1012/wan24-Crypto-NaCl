@@ -24,3 +24,42 @@ wan24.Crypto.NaCl.Bootstrapper.Boot();
 ```
 
 This will register the algorithms to the `wan24-Crypto` library.
+
+## Argon2id
+
+A simple KDF operation example:
+
+```cs
+(byte[] stretchedPwd, byte[] salt) = KdfArgon2IdAlgorithm.Instance.Stretch(pwd, len: 32);
+```
+
+To use Argon2id as default KDF algorithm:
+
+```cs
+KdfHelper.DefaultAlgorithm = KdfArgon2IdAlgorithm.Instance;
+```
+
+You may specify Argon2id specific options using the `KdfArgon2IdOptions`, 
+which cast implicit to/from a JSON string. The default options are the OWASP 
+recommendations (46M memory usage):
+
+```cs
+(byte[] stretchedPwd, byte[] salt) = pwd.Stretch(len: 32, options: new KdfArgon2IdOptions()
+	{
+		// Configure the options here
+	});// KdfArgon2IdOptions cast implicit to CryptoOptions
+```
+
+Or when using `CryptoOptions`:
+
+```cs
+CryptoOptions options = new()
+{
+	KdfAlgorithm = KdfArgon2IdAlgorithm.ALGORITHM_NAME,
+	KdfIterations = KdfArgon2IdAlgorithm.Instance.DefaultIterations,
+	KdfOptions = new KdfArgon2IdOptions()
+	{
+		// Configure the options here
+	}
+};
+```
