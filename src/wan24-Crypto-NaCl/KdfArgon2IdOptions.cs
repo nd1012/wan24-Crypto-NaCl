@@ -1,4 +1,5 @@
-﻿using wan24.Core;
+﻿using System.ComponentModel.DataAnnotations;
+using wan24.Core;
 
 namespace wan24.Crypto.NaCl
 {
@@ -8,11 +9,11 @@ namespace wan24.Crypto.NaCl
     public sealed class KdfArgon2IdOptions
     {
         /// <summary>
-        /// Default degree of parallelism
+        /// Degree of parallelism
         /// </summary>
         private int _Parallelism = KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM;
         /// <summary>
-        /// Default memory limit
+        /// Memory limit in bytes
         /// </summary>
         private long _MemoryLimit = KdfArgon2IdAlgorithm.DEFAULT_MEMORY;
 
@@ -22,8 +23,20 @@ namespace wan24.Crypto.NaCl
         public KdfArgon2IdOptions() { }
 
         /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="json">JSON string</param>
+        public KdfArgon2IdOptions(string json)
+        {
+            KdfArgon2IdOptions options = (json ?? throw new ArgumentException("Invalid JSON data", nameof(json)))!;
+            Parallelism = options.Parallelism;
+            MemoryLimit = options.MemoryLimit;
+        }
+
+        /// <summary>
         /// Degree of parallelism
         /// </summary>
+        [Range(KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM, KdfArgon2IdAlgorithm.MAX_PARALLELISM)]
         public int Parallelism
         {
             get => _Parallelism;
@@ -35,8 +48,9 @@ namespace wan24.Crypto.NaCl
         }
 
         /// <summary>
-        /// Memory limit
+        /// Memory limit in bytes
         /// </summary>
+        [Range(KdfArgon2IdAlgorithm.DEFAULT_MEMORY, KdfArgon2IdAlgorithm.MAX_MEMORY)]
         public long MemoryLimit
         {
             get => _MemoryLimit;
@@ -46,6 +60,19 @@ namespace wan24.Crypto.NaCl
                 _MemoryLimit = value;
             }
         }
+
+        /// <summary>
+        /// Clone
+        /// </summary>
+        /// <returns>Clone</returns>
+        public KdfArgon2IdOptions Clone() => new()
+        {
+            _Parallelism = _Parallelism,
+            _MemoryLimit = _MemoryLimit
+        };
+
+        /// <inheritdoc/>
+        public override string ToString() => this;
 
         /// <summary>
         /// Cast as JSON string
@@ -59,5 +86,16 @@ namespace wan24.Crypto.NaCl
         /// <param name="json">JSON string</param>
         public static implicit operator KdfArgon2IdOptions?(string? json)
             => json is null ? null : json.DecodeJson<KdfArgon2IdOptions>() ?? throw new InvalidDataException("Invalid JSON data");
+
+        /// <summary>
+        /// Cast as <see cref="CryptoOptions"/>
+        /// </summary>
+        /// <param name="options">Options</param>
+        public static implicit operator CryptoOptions(KdfArgon2IdOptions options) => new()
+        {
+            KdfAlgorithm = KdfArgon2IdAlgorithm.ALGORITHM_NAME,
+            KdfIterations = KdfArgon2IdAlgorithm.Instance.DefaultIterations,
+            KdfOptions = options
+        };
     }
 }

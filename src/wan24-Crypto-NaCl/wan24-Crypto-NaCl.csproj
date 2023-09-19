@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>wan24-Crypto-NaCl</PackageId>
     <Title>wan24-Crypto-NaCl</Title>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Authors>nd1012</Authors>
     <Company>Andreas Zimmermann, wan24.de</Company>
     <Product>wan24-Crypto-NaCl</Product>
@@ -18,7 +18,7 @@
     <PackageProjectUrl>https://github.com/nd1012/wan24-Crypto-NaCl</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nd1012/wan24-Crypto-NaCl</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>crypto;nacl</PackageTags>
+    <PackageTags>crypto;nacl;argon2;argon2id</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
@@ -32,8 +32,8 @@
 
   <ItemGroup>
     <PackageReference Include="NSec.Cryptography" Version="22.4.0" />
-    <PackageReference Include="wan24-Core" Version="1.31.1" />
-    <PackageReference Include="wan24-Crypto" Version="1.18.0" />
+    <PackageReference Include="wan24-Core" Version="1.32.1" />
+    <PackageReference Include="wan24-Crypto" Version="1.19.0" />
   </ItemGroup>
 
   <ItemGroup>
