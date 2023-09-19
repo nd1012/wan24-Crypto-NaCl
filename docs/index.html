@@ -95,6 +95,32 @@ initialize the NaCl extension first, before you can use it:</p>
 <pre><code class="lang-cs">wan24.Crypto.NaCl.Bootstrapper.Boot();
 </code></pre>
 <p>This will register the algorithms to the <code>wan24-Crypto</code> library.</p>
+<h2 id="argon2id">Argon2id</h2>
+<p>A simple KDF operation example:</p>
+<pre><code class="lang-cs">(byte[] stretchedPwd, byte[] salt) = KdfArgon2IdAlgorithm.Instance.Stretch(pwd, len: 32);
+</code></pre>
+<p>To use Argon2id as default KDF algorithm:</p>
+<pre><code class="lang-cs">KdfHelper.DefaultAlgorithm = KdfArgon2IdAlgorithm.Instance;
+</code></pre>
+<p>You may specify Argon2id specific options using the <code>KdfArgon2IdOptions</code>,
+which cast implicit to/from a JSON string. The default options are the OWASP
+recommendations (46M memory usage):</p>
+<pre><code class="lang-cs">(byte[] stretchedPwd, byte[] salt) = pwd.Stretch(len: 32, options: new KdfArgon2IdOptions()
+	{
+		// Configure the options here
+	});// KdfArgon2IdOptions cast implicit to CryptoOptions
+</code></pre>
+<p>Or when using <code>CryptoOptions</code>:</p>
+<pre><code class="lang-cs">CryptoOptions options = new()
+{
+	KdfAlgorithm = KdfArgon2IdAlgorithm.ALGORITHM_NAME,
+	KdfIterations = KdfArgon2IdAlgorithm.Instance.DefaultIterations,
+	KdfOptions = new KdfArgon2IdOptions()
+	{
+		// Configure the options here
+	}
+};
+</code></pre>
 </article>
           </div>
           
@@ -102,6 +128,9 @@ initialize the NaCl extension first, before you can use it:</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl Docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

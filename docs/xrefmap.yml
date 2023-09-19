@@ -209,6 +209,19 @@ references:
   isSpec: "True"
   fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength
   nameWithType: KdfArgon2IdAlgorithm.MinSaltLength
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  name: Register()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register()
+  nameWithType: KdfArgon2IdAlgorithm.Register()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register*
+  name: Register
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  nameWithType: KdfArgon2IdAlgorithm.Register
 - uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
   name: SaltLength
   href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_SaltLength
@@ -250,6 +263,12 @@ references:
   commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor
   fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.KdfArgon2IdOptions()
   nameWithType: KdfArgon2IdOptions.KdfArgon2IdOptions()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor(System.String)
+  name: KdfArgon2IdOptions(String)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions__ctor_System_String_
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor(System.String)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.KdfArgon2IdOptions(System.String)
+  nameWithType: KdfArgon2IdOptions.KdfArgon2IdOptions(String)
 - uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor*
   name: KdfArgon2IdOptions
   href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions__ctor_
@@ -257,6 +276,19 @@ references:
   isSpec: "True"
   fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.KdfArgon2IdOptions
   nameWithType: KdfArgon2IdOptions.KdfArgon2IdOptions
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.Clone
+  name: Clone()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_Clone
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.Clone
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.Clone()
+  nameWithType: KdfArgon2IdOptions.Clone()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.Clone*
+  name: Clone
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_Clone_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.Clone
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.Clone
+  nameWithType: KdfArgon2IdOptions.Clone
 - uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit
   name: MemoryLimit
   href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_MemoryLimit
@@ -288,6 +320,15 @@ references:
   fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.Widening(wan24.Crypto.NaCl.KdfArgon2IdOptions to System.String)
   nameWithType: KdfArgon2IdOptions.Implicit(KdfArgon2IdOptions to String)
   nameWithType.vb: KdfArgon2IdOptions.Widening(KdfArgon2IdOptions to String)
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions)~wan24.Crypto.CryptoOptions
+  name: Implicit(KdfArgon2IdOptions to CryptoOptions)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_op_Implicit_wan24_Crypto_NaCl_KdfArgon2IdOptions__wan24_Crypto_CryptoOptions
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions)~wan24.Crypto.CryptoOptions
+  name.vb: Widening(KdfArgon2IdOptions to CryptoOptions)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions to wan24.Crypto.CryptoOptions)
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.Widening(wan24.Crypto.NaCl.KdfArgon2IdOptions to wan24.Crypto.CryptoOptions)
+  nameWithType: KdfArgon2IdOptions.Implicit(KdfArgon2IdOptions to CryptoOptions)
+  nameWithType.vb: KdfArgon2IdOptions.Widening(KdfArgon2IdOptions to CryptoOptions)
 - uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit*
   name: Implicit
   href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_op_Implicit_
@@ -311,3 +352,16 @@ references:
   isSpec: "True"
   fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism
   nameWithType: KdfArgon2IdOptions.Parallelism
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  name: ToString()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_ToString
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString()
+  nameWithType: KdfArgon2IdOptions.ToString()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString*
+  name: ToString
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_ToString_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  nameWithType: KdfArgon2IdOptions.ToString
