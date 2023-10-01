@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "942s6xj6sTnqCH7iBcyDaowgptspXCuxDBcDS8/Gkac="
+          "hash": "3FMd+5Pv4xxAWSPGejSfE+PeJVBtFktOh+I6Kykenvc="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html",
-          "hash": "aVZQAS6EsARF9MyD1pAg7gcoDOaeK5AY7rs054NXWhk="
+          "hash": "HjMr1Jtn1oWFazXoYiHY3cB+I0Cxiq8I4hw6IlbFLwo="
         }
       },
       "is_incremental": false,
@@ -65,11 +65,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/wan24.Crypto.NaCl.NaClHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/wan24.Crypto.NaCl.NaClHelper.html",
+          "hash": "H6QrpMH3M/N1SE0MaQljFih+nrOKiWQeIhit0e/hMXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/wan24.Crypto.NaCl.yml",
       "output": {
         ".html": {
           "relative_path": "api/wan24.Crypto.NaCl.html",
-          "hash": "Jiy44iYXytZYqRYtSZSRI4XnXWoO1LVfIOeK4+iO/A4="
+          "hash": "eQ9LhazcbFwiLGwP89YSGCENx2qzwgrcTvtk3CUye7I="
         }
       },
       "is_incremental": false,
@@ -105,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "OGme5XtMYs4N09JzeTuuSQH9fsRCfLwD/AZkN3eKk2w="
+          "hash": "NtpG+hBzLfOHJLM6a7ZC/3FGqwpvT4Orxlr8a6cAFlM="
         }
       },
       "is_incremental": false,
@@ -144,7 +156,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

@@ -365,3 +365,25 @@ references:
   isSpec: "True"
   fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
   nameWithType: KdfArgon2IdOptions.ToString
+- uid: wan24.Crypto.NaCl.NaClHelper
+  name: NaClHelper
+  href: api/wan24.Crypto.NaCl.NaClHelper.html
+  commentId: T:wan24.Crypto.NaCl.NaClHelper
+  fullName: wan24.Crypto.NaCl.NaClHelper
+  nameWithType: NaClHelper
+- uid: wan24.Crypto.NaCl.NaClHelper.SetDefaults(System.Boolean@)
+  name: SetDefaults(in Boolean)
+  href: api/wan24.Crypto.NaCl.NaClHelper.html#wan24_Crypto_NaCl_NaClHelper_SetDefaults_System_Boolean__
+  commentId: M:wan24.Crypto.NaCl.NaClHelper.SetDefaults(System.Boolean@)
+  name.vb: SetDefaults(ByRef Boolean)
+  fullName: wan24.Crypto.NaCl.NaClHelper.SetDefaults(in System.Boolean)
+  fullName.vb: wan24.Crypto.NaCl.NaClHelper.SetDefaults(ByRef System.Boolean)
+  nameWithType: NaClHelper.SetDefaults(in Boolean)
+  nameWithType.vb: NaClHelper.SetDefaults(ByRef Boolean)
+- uid: wan24.Crypto.NaCl.NaClHelper.SetDefaults*
+  name: SetDefaults
+  href: api/wan24.Crypto.NaCl.NaClHelper.html#wan24_Crypto_NaCl_NaClHelper_SetDefaults_
+  commentId: Overload:wan24.Crypto.NaCl.NaClHelper.SetDefaults
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.NaClHelper.SetDefaults
+  nameWithType: NaClHelper.SetDefaults

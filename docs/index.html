@@ -95,6 +95,11 @@ initialize the NaCl extension first, before you can use it:</p>
 <pre><code class="lang-cs">wan24.Crypto.NaCl.Bootstrapper.Boot();
 </code></pre>
 <p>This will register the algorithms to the <code>wan24-Crypto</code> library.</p>
+<p>To set NaCl defaults as <code>wan24-Crypto</code> defaults:</p>
+<pre><code class="lang-cs">NaClHelper.SetDefaults();
+</code></pre>
+<p>Per default the current <code>wan24-Crypto</code> default will be set as counter
+algorithms to <code>HybridAlgorithmHelper</code>.</p>
 <h2 id="argon2id">Argon2id</h2>
 <p>A simple KDF operation example:</p>
 <pre><code class="lang-cs">(byte[] stretchedPwd, byte[] salt) = KdfArgon2IdAlgorithm.Instance.Stretch(pwd, len: 32);
