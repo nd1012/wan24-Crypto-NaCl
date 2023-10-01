@@ -25,6 +25,15 @@ wan24.Crypto.NaCl.Bootstrapper.Boot();
 
 This will register the algorithms to the `wan24-Crypto` library.
 
+To set NaCl defaults as `wan24-Crypto` defaults:
+
+```cs
+NaClHelper.SetDefaults();
+```
+
+Per default the current `wan24-Crypto` default will be set as counter 
+algorithms to `HybridAlgorithmHelper`.
+
 ## Argon2id
 
 A simple KDF operation example:
