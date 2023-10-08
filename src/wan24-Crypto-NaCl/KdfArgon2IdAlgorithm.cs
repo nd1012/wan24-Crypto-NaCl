@@ -6,7 +6,7 @@ namespace wan24.Crypto.NaCl
     /// <summary>
     /// Argon2id KDF algorithm
     /// </summary>
-    public sealed class KdfArgon2IdAlgorithm : KdfAlgorithmBase
+    public sealed record class KdfArgon2IdAlgorithm : KdfAlgorithmBase
     {
         /// <summary>
         /// Algorithm name

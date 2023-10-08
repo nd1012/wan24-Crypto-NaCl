@@ -6,7 +6,7 @@ namespace wan24.Crypto.NaCl
     /// <summary>
     /// Argon2id KDF algorithm options
     /// </summary>
-    public sealed class KdfArgon2IdOptions
+    public sealed record class KdfArgon2IdOptions
     {
         /// <summary>
         /// Degree of parallelism
@@ -62,10 +62,10 @@ namespace wan24.Crypto.NaCl
         }
 
         /// <summary>
-        /// Clone
+        /// Get a copy of this instance
         /// </summary>
-        /// <returns>Clone</returns>
-        public KdfArgon2IdOptions Clone() => new()
+        /// <returns>Instance copy</returns>
+        public KdfArgon2IdOptions GetCopy() => new()
         {
             _Parallelism = _Parallelism,
             _MemoryLimit = _MemoryLimit
