@@ -21,7 +21,19 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3FMd+5Pv4xxAWSPGejSfE+PeJVBtFktOh+I6Kykenvc="
+          "hash": "V31uoK1lf3Qfk908Xt48PQdfpbF3PbUlgsuRda7t2DQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/wan24.Crypto.NaCl..yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/wan24.Crypto.NaCl..html",
+          "hash": "YkWN1zDjqV6/o2JKWDYyWIVJip4HoF4rk195pLdN4U0="
         }
       },
       "is_incremental": false,
@@ -34,30 +46,6 @@
         ".html": {
           "relative_path": "api/wan24.Crypto.NaCl.Bootstrap.html",
           "hash": "evlY0KPmBBa0wGB/gA11yFWol0Zk36EeEntS+F2xJwA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html",
-          "hash": "HjMr1Jtn1oWFazXoYiHY3cB+I0Cxiq8I4hw6IlbFLwo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html",
-          "hash": "wbndDUA5ZVRYOZN8cFOEyLMCWgaVepilbkbQZpw0YGQ="
         }
       },
       "is_incremental": false,
@@ -81,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/wan24.Crypto.NaCl.html",
-          "hash": "eQ9LhazcbFwiLGwP89YSGCENx2qzwgrcTvtk3CUye7I="
+          "hash": "aWgZD2jSl1ue2/WiR25KSGDBs++hVsQ38jvQV1+Calc="
         }
       },
       "is_incremental": false,
@@ -156,7 +144,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
