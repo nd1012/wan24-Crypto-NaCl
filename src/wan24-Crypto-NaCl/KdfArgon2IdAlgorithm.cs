@@ -134,7 +134,7 @@ namespace wan24.Crypto.NaCl
         {
             try
             {
-                if (len < 1) throw new ArgumentOutOfRangeException(nameof(len));
+                ArgumentOutOfRangeException.ThrowIfLessThan(len, 1);
                 options ??= DefaultOptions;
                 options = KdfHelper.GetDefaultOptions(options);
                 if (options.KdfIterations < DEFAULT_PASSES || options.KdfIterations > MAX_PASSES)

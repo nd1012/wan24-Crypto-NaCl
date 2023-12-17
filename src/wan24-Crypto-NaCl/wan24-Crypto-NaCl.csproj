@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>wan24.Crypto.NaCl</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>wan24-Crypto-NaCl</PackageId>
     <Title>wan24-Crypto-NaCl</Title>
-    <Version>1.4.2</Version>
+    <Version>2.0.0</Version>
     <Authors>nd1012</Authors>
     <Company>Andreas Zimmermann, wan24.de</Company>
     <Product>wan24-Crypto-NaCl</Product>
@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <PackageReference Include="NSec.Cryptography" Version="22.4.0" />
-    <PackageReference Include="wan24-Core" Version="1.42.0" />
+    <PackageReference Include="wan24-Core" Version="1.43.0" />
     <PackageReference Include="wan24-Crypto" Version="1.26.1" />
   </ItemGroup>
 
