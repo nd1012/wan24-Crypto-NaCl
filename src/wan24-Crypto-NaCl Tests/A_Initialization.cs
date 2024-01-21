@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using wan24.Core;
+using wan24.Crypto.Tests;
 using wan24.ObjectValidation;
 
 namespace wan24_Crypto_NaCl_Tests
@@ -18,6 +19,7 @@ namespace wan24_Crypto_NaCl_Tests
             TypeHelper.Instance.ScanAssemblies(typeof(A_Initialization).Assembly);
             Bootstrap.Async().Wait();
             wan24.Crypto.NaCl.Bootstrap.Boot();//FIXME Shouldn't be required!
+            SharedTests.Initialize();
             ValidateObject.Logger("wan24-Crypto-NaCl Tests initialized");
         }
     }
