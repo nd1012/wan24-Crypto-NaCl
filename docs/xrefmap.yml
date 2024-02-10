@@ -7,11 +7,6 @@ references:
   commentId: N:wan24.Crypto.NaCl
   fullName: wan24.Crypto.NaCl
   nameWithType: wan24.Crypto.NaCl
-- uid: wan24.Crypto.NaCl.
-  name: ''
-  href: api/wan24.Crypto.NaCl..html
-  commentId: T:wan24.Crypto.NaCl.
-  fullName: wan24.Crypto.NaCl.
 - uid: wan24.Crypto.NaCl.Bootstrap
   name: Bootstrap
   href: api/wan24.Crypto.NaCl.Bootstrap.html
@@ -31,6 +26,360 @@ references:
   isSpec: "True"
   fullName: wan24.Crypto.NaCl.Bootstrap.Boot
   nameWithType: Bootstrap.Boot
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm
+  name: KdfArgon2IdAlgorithm
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html
+  commentId: T:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm
+  nameWithType: KdfArgon2IdAlgorithm
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor
+  name: KdfArgon2IdAlgorithm()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm__ctor
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor
+  name.vb: New()
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm()
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.New()
+  nameWithType: KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm()
+  nameWithType.vb: KdfArgon2IdAlgorithm.New()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor*
+  name: KdfArgon2IdAlgorithm
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm__ctor_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.New
+  nameWithType: KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm
+  nameWithType.vb: KdfArgon2IdAlgorithm.New
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_NAME
+  name: ALGORITHM_NAME
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_NAME
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_NAME
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_NAME
+  nameWithType: KdfArgon2IdAlgorithm.ALGORITHM_NAME
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_VALUE
+  name: ALGORITHM_VALUE
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_VALUE
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_VALUE
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_VALUE
+  nameWithType: KdfArgon2IdAlgorithm.ALGORITHM_VALUE
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_MEMORY
+  name: DEFAULT_MEMORY
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_MEMORY
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_MEMORY
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_MEMORY
+  nameWithType: KdfArgon2IdAlgorithm.DEFAULT_MEMORY
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM
+  name: DEFAULT_PARALLELISM
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_PARALLELISM
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM
+  nameWithType: KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PASSES
+  name: DEFAULT_PASSES
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_PASSES
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PASSES
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PASSES
+  nameWithType: KdfArgon2IdAlgorithm.DEFAULT_PASSES
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_SALT_LEN
+  name: DEFAULT_SALT_LEN
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_SALT_LEN
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_SALT_LEN
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_SALT_LEN
+  nameWithType: KdfArgon2IdAlgorithm.DEFAULT_SALT_LEN
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DISPLAY_NAME
+  name: DISPLAY_NAME
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DISPLAY_NAME
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DISPLAY_NAME
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DISPLAY_NAME
+  nameWithType: KdfArgon2IdAlgorithm.DISPLAY_NAME
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations
+  name: DefaultIterations
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultIterations
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations
+  nameWithType: KdfArgon2IdAlgorithm.DefaultIterations
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations*
+  name: DefaultIterations
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultIterations_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations
+  nameWithType: KdfArgon2IdAlgorithm.DefaultIterations
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit
+  name: DefaultMemoryLimit
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultMemoryLimit
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit
+  nameWithType: KdfArgon2IdAlgorithm.DefaultMemoryLimit
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit*
+  name: DefaultMemoryLimit
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultMemoryLimit_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit
+  nameWithType: KdfArgon2IdAlgorithm.DefaultMemoryLimit
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism
+  name: DefaultParallelism
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultParallelism
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism
+  nameWithType: KdfArgon2IdAlgorithm.DefaultParallelism
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism*
+  name: DefaultParallelism
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultParallelism_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism
+  nameWithType: KdfArgon2IdAlgorithm.DefaultParallelism
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName
+  name: DisplayName
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DisplayName
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName
+  nameWithType: KdfArgon2IdAlgorithm.DisplayName
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName*
+  name: DisplayName
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DisplayName_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName
+  nameWithType: KdfArgon2IdAlgorithm.DisplayName
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance
+  name: Instance
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Instance
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance
+  nameWithType: KdfArgon2IdAlgorithm.Instance
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance*
+  name: Instance
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Instance_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance
+  nameWithType: KdfArgon2IdAlgorithm.Instance
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum
+  name: IsPostQuantum
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_IsPostQuantum
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum
+  nameWithType: KdfArgon2IdAlgorithm.IsPostQuantum
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum*
+  name: IsPostQuantum
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_IsPostQuantum_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum
+  nameWithType: KdfArgon2IdAlgorithm.IsPostQuantum
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_MEMORY
+  name: MAX_MEMORY
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_MEMORY
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_MEMORY
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_MEMORY
+  nameWithType: KdfArgon2IdAlgorithm.MAX_MEMORY
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PARALLELISM
+  name: MAX_PARALLELISM
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_PARALLELISM
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PARALLELISM
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PARALLELISM
+  nameWithType: KdfArgon2IdAlgorithm.MAX_PARALLELISM
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PASSES
+  name: MAX_PASSES
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_PASSES
+  commentId: F:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PASSES
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PASSES
+  nameWithType: KdfArgon2IdAlgorithm.MAX_PASSES
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations
+  name: MinIterations
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinIterations
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations
+  nameWithType: KdfArgon2IdAlgorithm.MinIterations
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations*
+  name: MinIterations
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinIterations_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations
+  nameWithType: KdfArgon2IdAlgorithm.MinIterations
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength
+  name: MinSaltLength
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinSaltLength
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength
+  nameWithType: KdfArgon2IdAlgorithm.MinSaltLength
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength*
+  name: MinSaltLength
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinSaltLength_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength
+  nameWithType: KdfArgon2IdAlgorithm.MinSaltLength
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  name: Register()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register()
+  nameWithType: KdfArgon2IdAlgorithm.Register()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register*
+  name: Register
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register
+  nameWithType: KdfArgon2IdAlgorithm.Register
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
+  name: SaltLength
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_SaltLength
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
+  nameWithType: KdfArgon2IdAlgorithm.SaltLength
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength*
+  name: SaltLength
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_SaltLength_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
+  nameWithType: KdfArgon2IdAlgorithm.SaltLength
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(System.Byte[],System.Int32,System.Byte[],wan24.Crypto.CryptoOptions)
+  name: Stretch(byte[], int, byte[]?, CryptoOptions?)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Stretch_System_Byte___System_Int32_System_Byte___wan24_Crypto_CryptoOptions_
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(System.Byte[],System.Int32,System.Byte[],wan24.Crypto.CryptoOptions)
+  name.vb: Stretch(Byte(), Integer, Byte(), CryptoOptions)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(byte[], int, byte[]?, wan24.Crypto.CryptoOptions?)
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(Byte(), Integer, Byte(), wan24.Crypto.CryptoOptions)
+  nameWithType: KdfArgon2IdAlgorithm.Stretch(byte[], int, byte[]?, CryptoOptions?)
+  nameWithType.vb: KdfArgon2IdAlgorithm.Stretch(Byte(), Integer, Byte(), CryptoOptions)
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch*
+  name: Stretch
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Stretch_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch
+  nameWithType: KdfArgon2IdAlgorithm.Stretch
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions
+  name: KdfArgon2IdOptions
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html
+  commentId: T:wan24.Crypto.NaCl.KdfArgon2IdOptions
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions
+  nameWithType: KdfArgon2IdOptions
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor
+  name: KdfArgon2IdOptions()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions__ctor
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor
+  name.vb: New()
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.KdfArgon2IdOptions()
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.New()
+  nameWithType: KdfArgon2IdOptions.KdfArgon2IdOptions()
+  nameWithType.vb: KdfArgon2IdOptions.New()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor(System.String)
+  name: KdfArgon2IdOptions(string)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions__ctor_System_String_
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor(System.String)
+  name.vb: New(String)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.KdfArgon2IdOptions(string)
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.New(String)
+  nameWithType: KdfArgon2IdOptions.KdfArgon2IdOptions(string)
+  nameWithType.vb: KdfArgon2IdOptions.New(String)
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor*
+  name: KdfArgon2IdOptions
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions__ctor_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.KdfArgon2IdOptions
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.New
+  nameWithType: KdfArgon2IdOptions.KdfArgon2IdOptions
+  nameWithType.vb: KdfArgon2IdOptions.New
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.GetCopy
+  name: GetCopy()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_GetCopy
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.GetCopy
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.GetCopy()
+  nameWithType: KdfArgon2IdOptions.GetCopy()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.GetCopy*
+  name: GetCopy
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_GetCopy_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.GetCopy
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.GetCopy
+  nameWithType: KdfArgon2IdOptions.GetCopy
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit
+  name: MemoryLimit
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_MemoryLimit
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit
+  nameWithType: KdfArgon2IdOptions.MemoryLimit
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit*
+  name: MemoryLimit
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_MemoryLimit_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.MemoryLimit
+  nameWithType: KdfArgon2IdOptions.MemoryLimit
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism
+  name: Parallelism
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_Parallelism
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism
+  nameWithType: KdfArgon2IdOptions.Parallelism
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism*
+  name: Parallelism
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_Parallelism_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.Parallelism
+  nameWithType: KdfArgon2IdOptions.Parallelism
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  name: ToString()
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_ToString
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString()
+  nameWithType: KdfArgon2IdOptions.ToString()
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString*
+  name: ToString
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_ToString_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.ToString
+  nameWithType: KdfArgon2IdOptions.ToString
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(System.String)~wan24.Crypto.NaCl.KdfArgon2IdOptions
+  name: implicit operator KdfArgon2IdOptions?(string?)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_op_Implicit_System_String__wan24_Crypto_NaCl_KdfArgon2IdOptions
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(System.String)~wan24.Crypto.NaCl.KdfArgon2IdOptions
+  name.vb: CType(String)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.implicit operator wan24.Crypto.NaCl.KdfArgon2IdOptions?(string?)
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.CType(String)
+  nameWithType: KdfArgon2IdOptions.implicit operator KdfArgon2IdOptions?(string?)
+  nameWithType.vb: KdfArgon2IdOptions.CType(String)
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions)~System.String
+  name: implicit operator string(KdfArgon2IdOptions)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_op_Implicit_wan24_Crypto_NaCl_KdfArgon2IdOptions__System_String
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions)~System.String
+  name.vb: CType(KdfArgon2IdOptions)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.implicit operator string(wan24.Crypto.NaCl.KdfArgon2IdOptions)
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.CType(wan24.Crypto.NaCl.KdfArgon2IdOptions)
+  nameWithType: KdfArgon2IdOptions.implicit operator string(KdfArgon2IdOptions)
+  nameWithType.vb: KdfArgon2IdOptions.CType(KdfArgon2IdOptions)
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions)~wan24.Crypto.CryptoOptions
+  name: implicit operator CryptoOptions(KdfArgon2IdOptions)
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_op_Implicit_wan24_Crypto_NaCl_KdfArgon2IdOptions__wan24_Crypto_CryptoOptions
+  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit(wan24.Crypto.NaCl.KdfArgon2IdOptions)~wan24.Crypto.CryptoOptions
+  name.vb: CType(KdfArgon2IdOptions)
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.implicit operator wan24.Crypto.CryptoOptions(wan24.Crypto.NaCl.KdfArgon2IdOptions)
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.CType(wan24.Crypto.NaCl.KdfArgon2IdOptions)
+  nameWithType: KdfArgon2IdOptions.implicit operator CryptoOptions(KdfArgon2IdOptions)
+  nameWithType.vb: KdfArgon2IdOptions.CType(KdfArgon2IdOptions)
+- uid: wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit*
+  name: implicit operator
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html#wan24_Crypto_NaCl_KdfArgon2IdOptions_op_Implicit_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdOptions.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdOptions.implicit operator
+  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdOptions.CType
+  nameWithType: KdfArgon2IdOptions.implicit operator
+  nameWithType.vb: KdfArgon2IdOptions.CType
 - uid: wan24.Crypto.NaCl.NaClHelper
   name: NaClHelper
   href: api/wan24.Crypto.NaCl.NaClHelper.html
@@ -38,14 +387,14 @@ references:
   fullName: wan24.Crypto.NaCl.NaClHelper
   nameWithType: NaClHelper
 - uid: wan24.Crypto.NaCl.NaClHelper.SetDefaults(System.Boolean@)
-  name: SetDefaults(in Boolean)
+  name: SetDefaults(in bool)
   href: api/wan24.Crypto.NaCl.NaClHelper.html#wan24_Crypto_NaCl_NaClHelper_SetDefaults_System_Boolean__
   commentId: M:wan24.Crypto.NaCl.NaClHelper.SetDefaults(System.Boolean@)
-  name.vb: SetDefaults(ByRef Boolean)
-  fullName: wan24.Crypto.NaCl.NaClHelper.SetDefaults(in System.Boolean)
-  fullName.vb: wan24.Crypto.NaCl.NaClHelper.SetDefaults(ByRef System.Boolean)
-  nameWithType: NaClHelper.SetDefaults(in Boolean)
-  nameWithType.vb: NaClHelper.SetDefaults(ByRef Boolean)
+  name.vb: SetDefaults(Boolean)
+  fullName: wan24.Crypto.NaCl.NaClHelper.SetDefaults(in bool)
+  fullName.vb: wan24.Crypto.NaCl.NaClHelper.SetDefaults(Boolean)
+  nameWithType: NaClHelper.SetDefaults(in bool)
+  nameWithType.vb: NaClHelper.SetDefaults(Boolean)
 - uid: wan24.Crypto.NaCl.NaClHelper.SetDefaults*
   name: SetDefaults
   href: api/wan24.Crypto.NaCl.NaClHelper.html#wan24_Crypto_NaCl_NaClHelper_SetDefaults_

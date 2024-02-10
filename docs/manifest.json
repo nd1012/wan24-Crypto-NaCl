@@ -1,6 +1,5 @@
 {
-  "homepages": [],
-  "source_base_path": "D:/P/wan24-Crypto-NaCl/src/wan24-Crypto-NaCl Docs",
+  "source_base_path": "/home/runner/work/wan24-Crypto-NaCl/wan24-Crypto-NaCl/src/wan24-Crypto-NaCl Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -8,11 +7,9 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "rrR2yuyG+T4YvSl2Ej8c1J9V/tNa4RWd1n89PGDAh+M="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -20,23 +17,12 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "V31uoK1lf3Qfk908Xt48PQdfpbF3PbUlgsuRda7t2DQ="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/wan24.Crypto.NaCl..yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/wan24.Crypto.NaCl..html",
-          "hash": "YkWN1zDjqV6/o2JKWDYyWIVJip4HoF4rk195pLdN4U0="
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -44,11 +30,29 @@
       "source_relative_path": "api/wan24.Crypto.NaCl.Bootstrap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/wan24.Crypto.NaCl.Bootstrap.html",
-          "hash": "evlY0KPmBBa0wGB/gA11yFWol0Zk36EeEntS+F2xJwA="
+          "relative_path": "api/wan24.Crypto.NaCl.Bootstrap.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html"
+        }
+      },
       "version": ""
     },
     {
@@ -56,11 +60,9 @@
       "source_relative_path": "api/wan24.Crypto.NaCl.NaClHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/wan24.Crypto.NaCl.NaClHelper.html",
-          "hash": "H6QrpMH3M/N1SE0MaQljFih+nrOKiWQeIhit0e/hMXE="
+          "relative_path": "api/wan24.Crypto.NaCl.NaClHelper.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -68,11 +70,9 @@
       "source_relative_path": "api/wan24.Crypto.NaCl.yml",
       "output": {
         ".html": {
-          "relative_path": "api/wan24.Crypto.NaCl.html",
-          "hash": "aWgZD2jSl1ue2/WiR25KSGDBs++hVsQ38jvQV1+Calc="
+          "relative_path": "api/wan24.Crypto.NaCl.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -80,11 +80,9 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "0C/HyeXSmb0CZSL47qQ8rjhbqBZPa9COWNAshs9gAlw="
+          "relative_path": "articles/intro.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -92,11 +90,12 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -104,11 +103,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "NtpG+hBzLfOHJLM6a7ZC/3FGqwpvT4Orxlr8a6cAFlM="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -116,58 +113,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "J+2fpeDURKYevj7MVcoHPqhSxW+2XSIJbFSCg0asWHQ="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
