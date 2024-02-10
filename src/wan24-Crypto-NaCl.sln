@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33617.297
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wan24-Crypto-NaCl", "wan24-Crypto-NaCl\wan24-Crypto-NaCl.csproj", "{D84CB8E5-27D4-4077-B192-58E9D945D5E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Crypto-NaCl", "wan24-Crypto-NaCl\wan24-Crypto-NaCl.csproj", "{D84CB8E5-27D4-4077-B192-58E9D945D5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wan24-Crypto-NaCl Docs", "wan24-Crypto-NaCl Docs\wan24-Crypto-NaCl Docs.csproj", "{CA049FBC-58F5-4010-ABE5-B357F774908D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Crypto-NaCl Docs", "wan24-Crypto-NaCl Docs\wan24-Crypto-NaCl Docs.csproj", "{CA049FBC-58F5-4010-ABE5-B357F774908D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wan24-Crypto-NaCl Tests", "wan24-Crypto-NaCl Tests\wan24-Crypto-NaCl Tests.csproj", "{9F7887FC-7C27-4D2F-8EB2-9EDDEBD5C6E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Crypto-NaCl Tests", "wan24-Crypto-NaCl Tests\wan24-Crypto-NaCl Tests.csproj", "{9F7887FC-7C27-4D2F-8EB2-9EDDEBD5C6E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,7 @@ Global
 		{D84CB8E5-27D4-4077-B192-58E9D945D5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84CB8E5-27D4-4077-B192-58E9D945D5E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA049FBC-58F5-4010-ABE5-B357F774908D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA049FBC-58F5-4010-ABE5-B357F774908D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA049FBC-58F5-4010-ABE5-B357F774908D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA049FBC-58F5-4010-ABE5-B357F774908D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F7887FC-7C27-4D2F-8EB2-9EDDEBD5C6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F7887FC-7C27-4D2F-8EB2-9EDDEBD5C6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7887FC-7C27-4D2F-8EB2-9EDDEBD5C6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
