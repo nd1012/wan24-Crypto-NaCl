@@ -70,7 +70,7 @@ namespace wan24.Crypto.NaCl
         /// <summary>
         /// Constructor
         /// </summary>
-        public KdfArgon2IdAlgorithm() : base(ALGORITHM_NAME, ALGORITHM_VALUE) => DefaultKdfOptions = new KdfArgon2IdOptions();
+        private KdfArgon2IdAlgorithm() : base(ALGORITHM_NAME, ALGORITHM_VALUE) => DefaultKdfOptions = new KdfArgon2IdOptions();
 
         /// <summary>
         /// Instance
