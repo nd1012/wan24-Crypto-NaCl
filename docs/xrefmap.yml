@@ -32,25 +32,6 @@ references:
   commentId: T:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm
   fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm
   nameWithType: KdfArgon2IdAlgorithm
-- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor
-  name: KdfArgon2IdAlgorithm()
-  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm__ctor
-  commentId: M:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor
-  name.vb: New()
-  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm()
-  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.New()
-  nameWithType: KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm()
-  nameWithType.vb: KdfArgon2IdAlgorithm.New()
-- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor*
-  name: KdfArgon2IdAlgorithm
-  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm__ctor_
-  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm
-  fullName.vb: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.New
-  nameWithType: KdfArgon2IdAlgorithm.KdfArgon2IdAlgorithm
-  nameWithType.vb: KdfArgon2IdAlgorithm.New
 - uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_NAME
   name: ALGORITHM_NAME
   href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_NAME
