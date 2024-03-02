@@ -23,6 +23,16 @@ namespace wan24.Crypto.NaCl
         public KdfArgon2IdOptions() { }
 
         /// <summary>
+        /// Default degree of parallelism
+        /// </summary>
+        public static int DefaultParallelism { get; set; } = KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM;
+
+        /// <summary>
+        /// Default memory limit in bytes
+        /// </summary>
+        public static long DefaultMemoryLimit { get; set; } = KdfArgon2IdAlgorithm.DEFAULT_MEMORY;
+
+        /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="json">JSON string</param>
