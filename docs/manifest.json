@@ -3,6 +3,14 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -51,6 +59,16 @@
       "output": {
         ".html": {
           "relative_path": "api/wan24.Crypto.NaCl.KdfArgon2IdOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/wan24.Crypto.NaCl.NaClCryptoAppConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/wan24.Crypto.NaCl.NaClCryptoAppConfig.html"
         }
       },
       "version": ""
