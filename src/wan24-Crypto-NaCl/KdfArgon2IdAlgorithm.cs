@@ -1,5 +1,6 @@
 ﻿using NSec.Cryptography;
 using System.Security.Cryptography;
+using wan24.Core;
 
 namespace wan24.Crypto.NaCl
 {
@@ -130,10 +131,22 @@ namespace wan24.Crypto.NaCl
         public override string DisplayName => DISPLAY_NAME;
 
         /// <inheritdoc/>
+        public override IEnumerable<Status> State
+        {
+            get
+            {
+                foreach (Status status in base.State) yield return status;
+                yield return new("Parallelism", DefaultParallelism, "The default parallelism degree");
+                yield return new("Memory limit", DefaultMemoryLimit, "The default memory limit in MiB");
+            }
+        }
+
+        /// <inheritdoc/>
         public override (byte[] Stretched, byte[] Salt) Stretch(byte[] pwd, int len, byte[]? salt = null, CryptoOptions? options = null)
         {
             try
             {
+                EnsureAllowed();
                 ArgumentOutOfRangeException.ThrowIfLessThan(len, 1);
                 options ??= DefaultOptions;
                 options = KdfHelper.GetDefaultOptions(options);
