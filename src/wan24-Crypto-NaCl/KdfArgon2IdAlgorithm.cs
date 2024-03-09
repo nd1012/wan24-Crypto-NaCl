@@ -1,6 +1,7 @@
 ﻿using NSec.Cryptography;
 using System.Security.Cryptography;
 using wan24.Core;
+using static wan24.Core.TranslationHelper;
 
 namespace wan24.Crypto.NaCl
 {
@@ -136,8 +137,8 @@ namespace wan24.Crypto.NaCl
             get
             {
                 foreach (Status status in base.State) yield return status;
-                yield return new("Parallelism", DefaultParallelism, "The default parallelism degree");
-                yield return new("Memory limit", DefaultMemoryLimit, "The default memory limit in MiB");
+                yield return new(__("Parallelism"), DefaultParallelism, __("The default parallelism degree"));
+                yield return new(__("Memory limit"), DefaultMemoryLimit, __("The default memory limit in MiB"));
             }
         }
 
