@@ -1,13 +1,13 @@
 ﻿using wan24.Core;
 
-[assembly: Bootstrapper(typeof(wan24.Crypto.NaCl.Bootstrap), nameof(wan24.Crypto.NaCl.Bootstrap.Boot))]
+[assembly: Bootstrapper(typeof(wan24.Crypto.NaCl.Bootstrapper), nameof(wan24.Crypto.NaCl.Bootstrapper.Boot))]
 
 namespace wan24.Crypto.NaCl
 {
     /// <summary>
     /// Bootstrapper
     /// </summary>
-    public static class Bootstrap
+    public static class Bootstrapper
     {
         /// <summary>
         /// Boot
