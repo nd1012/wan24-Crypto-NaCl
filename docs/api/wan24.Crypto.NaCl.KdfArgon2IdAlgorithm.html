@@ -114,6 +114,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">ICryptoAlgorithm</span></div>
+    <div><span class="xref">IStatusProvider</span></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<span class="xref">CryptoAlgorithmBase</span>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<span class="xref">KdfAlgorithmBase</span>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html">KdfArgon2IdAlgorithm</a>&gt;</div>
@@ -151,6 +152,9 @@
       <span class="xref">KdfAlgorithmBase.DefaultKdfOptions</span>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">CryptoAlgorithmBase.EnsureAllowed(in bool)</a>
+    </div>
+    <div>
       <span class="xref">CryptoAlgorithmBase.Name</span>
     </div>
     <div>
@@ -158,6 +162,9 @@
     </div>
     <div>
       <span class="xref">CryptoAlgorithmBase.UsesTpm</span>
+    </div>
+    <div>
+      <span class="xref">CryptoAlgorithmBase.IsSupported</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
@@ -173,7 +180,7 @@
   <h6><strong>Assembly</strong>: wan24CryptoNaCl.dll</h6>
   <h5 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed record KdfArgon2IdAlgorithm : KdfAlgorithmBase, ICryptoAlgorithm, IEquatable&lt;CryptoAlgorithmBase&gt;, IEquatable&lt;KdfAlgorithmBase&gt;, IEquatable&lt;KdfArgon2IdAlgorithm&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed record KdfArgon2IdAlgorithm : KdfAlgorithmBase, ICryptoAlgorithm, IStatusProvider, IEquatable&lt;CryptoAlgorithmBase&gt;, IEquatable&lt;KdfAlgorithmBase&gt;, IEquatable&lt;KdfArgon2IdAlgorithm&gt;</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
@@ -182,7 +189,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_NAME.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_NAME%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L14">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L16">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_NAME" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_NAME">ALGORITHM_NAME</h4>
   <div class="markdown level1 summary"><p>Algorithm name</p>
@@ -212,7 +219,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_VALUE.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_VALUE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L18">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L20">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_ALGORITHM_VALUE" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.ALGORITHM_VALUE">ALGORITHM_VALUE</h4>
   <div class="markdown level1 summary"><p>Algorithm value</p>
@@ -242,7 +249,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_MEMORY.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_MEMORY%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L30">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L32">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_MEMORY" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_MEMORY">DEFAULT_MEMORY</h4>
   <div class="markdown level1 summary"><p>Default memory size (m=46M)</p>
@@ -272,7 +279,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_PARALLELISM.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L22">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L24">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_PARALLELISM" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PARALLELISM">DEFAULT_PARALLELISM</h4>
   <div class="markdown level1 summary"><p>Default degree of parallelism (p=fixed to 1 currently)</p>
@@ -302,7 +309,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_PASSES.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PASSES%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L38">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L40">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_PASSES" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_PASSES">DEFAULT_PASSES</h4>
   <div class="markdown level1 summary"><p>Default number of passes (t=1)</p>
@@ -332,7 +339,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_SALT_LEN.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_SALT_LEN%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L46">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L48">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DEFAULT_SALT_LEN" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DEFAULT_SALT_LEN">DEFAULT_SALT_LEN</h4>
   <div class="markdown level1 summary"><p>Default salt bytes length</p>
@@ -362,7 +369,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DISPLAY_NAME.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DISPLAY_NAME%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L50">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L52">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DISPLAY_NAME" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DISPLAY_NAME">DISPLAY_NAME</h4>
   <div class="markdown level1 summary"><p>Display name</p>
@@ -392,7 +399,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_MEMORY.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_MEMORY%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L34">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L36">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_MEMORY" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_MEMORY">MAX_MEMORY</h4>
   <div class="markdown level1 summary"><p>Max. memory size</p>
@@ -422,7 +429,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_PARALLELISM.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PARALLELISM%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L26">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L28">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_PARALLELISM" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PARALLELISM">MAX_PARALLELISM</h4>
   <div class="markdown level1 summary"><p>Max. degree of parallelism</p>
@@ -452,7 +459,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_PASSES.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PASSES%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L42">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L44">View Source</a>
   </span>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MAX_PASSES" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MAX_PASSES">MAX_PASSES</h4>
   <div class="markdown level1 summary"><p>Max. number of passes</p>
@@ -484,7 +491,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultIterations.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L81">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L83">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultIterations_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultIterations" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultIterations">DefaultIterations</h4>
@@ -517,7 +524,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultMemoryLimit.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L107">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L109">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultMemoryLimit_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultMemoryLimit" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultMemoryLimit">DefaultMemoryLimit</h4>
@@ -548,7 +555,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultParallelism.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L94">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L96">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultParallelism_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DefaultParallelism" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DefaultParallelism">DefaultParallelism</h4>
@@ -579,7 +586,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DisplayName.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L130">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L132">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DisplayName_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_DisplayName" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.DisplayName">DisplayName</h4>
@@ -612,7 +619,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Instance.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L78">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L80">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Instance_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Instance" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Instance">Instance</h4>
@@ -643,7 +650,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_IsPostQuantum.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L127">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L129">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_IsPostQuantum_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_IsPostQuantum" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.IsPostQuantum">IsPostQuantum</h4>
@@ -676,7 +683,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinIterations.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L118">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L120">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinIterations_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinIterations" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinIterations">MinIterations</h4>
@@ -709,7 +716,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinSaltLength.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L121">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L123">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinSaltLength_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_MinSaltLength" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.MinSaltLength">MinSaltLength</h4>
@@ -742,7 +749,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_SaltLength.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L124">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L126">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_SaltLength_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_SaltLength" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength">SaltLength</h4>
@@ -770,6 +777,39 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">wan24.Crypto.KdfAlgorithmBase.SaltLength</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_State.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L135">View Source</a>
+  </span>
+  <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_State_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State*"></a>
+  <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_State" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State">State</h4>
+  <div class="markdown level1 summary"><p>Status information</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;Status&gt; State { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Status</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">wan24.Crypto.KdfAlgorithmBase.State</span></div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
@@ -777,7 +817,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L168">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L182">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Register" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Register">Register()</h4>
@@ -793,7 +833,7 @@
     <a href="https://github.com/nd1012/wan24-Crypto-NaCl/new/main/apiSpec/new?filename=wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Stretch_System_Byte___System_Int32_System_Byte___wan24_Crypto_CryptoOptions_.md&amp;value=---%0Auid%3A%20wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Byte%5B%5D%2Cwan24.Crypto.CryptoOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L133">View Source</a>
+    <a href="https://github.com/nd1012/wan24-Crypto-NaCl/blob/main/src/wan24-Crypto-NaCl/KdfArgon2IdAlgorithm.cs/#L146">View Source</a>
   </span>
   <a id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Stretch_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch*"></a>
   <h4 id="wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Stretch_System_Byte___System_Int32_System_Byte___wan24_Crypto_CryptoOptions_" data-uid="wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(System.Byte[],System.Int32,System.Byte[],wan24.Crypto.CryptoOptions)">Stretch(byte[], int, byte[]?, CryptoOptions?)</h4>
@@ -861,6 +901,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">wan24.Crypto.ICryptoAlgorithm</span>
+  </div>
+  <div>
+      <span class="xref">wan24.Core.IStatusProvider</span>
   </div>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>

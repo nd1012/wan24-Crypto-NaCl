@@ -7,25 +7,25 @@ references:
   commentId: N:wan24.Crypto.NaCl
   fullName: wan24.Crypto.NaCl
   nameWithType: wan24.Crypto.NaCl
-- uid: wan24.Crypto.NaCl.Bootstrap
-  name: Bootstrap
-  href: api/wan24.Crypto.NaCl.Bootstrap.html
-  commentId: T:wan24.Crypto.NaCl.Bootstrap
-  fullName: wan24.Crypto.NaCl.Bootstrap
-  nameWithType: Bootstrap
-- uid: wan24.Crypto.NaCl.Bootstrap.Boot
+- uid: wan24.Crypto.NaCl.Bootstrapper
+  name: Bootstrapper
+  href: api/wan24.Crypto.NaCl.Bootstrapper.html
+  commentId: T:wan24.Crypto.NaCl.Bootstrapper
+  fullName: wan24.Crypto.NaCl.Bootstrapper
+  nameWithType: Bootstrapper
+- uid: wan24.Crypto.NaCl.Bootstrapper.Boot
   name: Boot()
-  href: api/wan24.Crypto.NaCl.Bootstrap.html#wan24_Crypto_NaCl_Bootstrap_Boot
-  commentId: M:wan24.Crypto.NaCl.Bootstrap.Boot
-  fullName: wan24.Crypto.NaCl.Bootstrap.Boot()
-  nameWithType: Bootstrap.Boot()
-- uid: wan24.Crypto.NaCl.Bootstrap.Boot*
+  href: api/wan24.Crypto.NaCl.Bootstrapper.html#wan24_Crypto_NaCl_Bootstrapper_Boot
+  commentId: M:wan24.Crypto.NaCl.Bootstrapper.Boot
+  fullName: wan24.Crypto.NaCl.Bootstrapper.Boot()
+  nameWithType: Bootstrapper.Boot()
+- uid: wan24.Crypto.NaCl.Bootstrapper.Boot*
   name: Boot
-  href: api/wan24.Crypto.NaCl.Bootstrap.html#wan24_Crypto_NaCl_Bootstrap_Boot_
-  commentId: Overload:wan24.Crypto.NaCl.Bootstrap.Boot
+  href: api/wan24.Crypto.NaCl.Bootstrapper.html#wan24_Crypto_NaCl_Bootstrapper_Boot_
+  commentId: Overload:wan24.Crypto.NaCl.Bootstrapper.Boot
   isSpec: "True"
-  fullName: wan24.Crypto.NaCl.Bootstrap.Boot
-  nameWithType: Bootstrap.Boot
+  fullName: wan24.Crypto.NaCl.Bootstrapper.Boot
+  nameWithType: Bootstrapper.Boot
 - uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm
   name: KdfArgon2IdAlgorithm
   href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html
@@ -222,6 +222,19 @@ references:
   isSpec: "True"
   fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.SaltLength
   nameWithType: KdfArgon2IdAlgorithm.SaltLength
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State
+  name: State
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_State
+  commentId: P:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State
+  nameWithType: KdfArgon2IdAlgorithm.State
+- uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State*
+  name: State
+  href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_State_
+  commentId: Overload:wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State
+  isSpec: "True"
+  fullName: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.State
+  nameWithType: KdfArgon2IdAlgorithm.State
 - uid: wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.Stretch(System.Byte[],System.Int32,System.Byte[],wan24.Crypto.CryptoOptions)
   name: Stretch(byte[], int, byte[]?, CryptoOptions?)
   href: api/wan24.Crypto.NaCl.KdfArgon2IdAlgorithm.html#wan24_Crypto_NaCl_KdfArgon2IdAlgorithm_Stretch_System_Byte___System_Int32_System_Byte___wan24_Crypto_CryptoOptions_
