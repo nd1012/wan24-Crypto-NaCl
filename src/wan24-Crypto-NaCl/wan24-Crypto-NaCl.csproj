@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>wan24-Crypto-NaCl</PackageId>
     <Title>wan24-Crypto-NaCl</Title>
-    <Version>2.7.0</Version>
+    <Version>2.7.1</Version>
     <Authors>nd1012</Authors>
     <Company>Andreas Zimmermann, wan24.de</Company>
     <Product>wan24-Crypto-NaCl</Product>
@@ -32,8 +32,8 @@
 
   <ItemGroup>
     <PackageReference Include="NSec.Cryptography" Version="24.4.0" />
-    <PackageReference Include="wan24-Core" Version="2.31.0" />
-    <PackageReference Include="wan24-Crypto" Version="2.16.0" />
+    <PackageReference Include="wan24-Core" Version="2.32.0" />
+    <PackageReference Include="wan24-Crypto" Version="2.16.1" />
   </ItemGroup>
 
   <ItemGroup>
